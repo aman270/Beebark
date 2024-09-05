@@ -1,0 +1,181 @@
+/* Global Styles to prevent overflow */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  width: 100%;
+  height: 100%;
+}
+
+/* Container for Left and Right Sections */
+.container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Left Section Styling */
+.left-section {
+  flex: 3; /* Takes up 60% of the container width */
+  background: url('https://unsplash.com/photos/modern-interior-of-living-room-with-green-sofa-and-armchair-wooden-door-and-cabinet-home-design-3d-rendering-S5SWkZgcFIA') no-repeat center center; /* Background image */
+  background-size: cover; /* Ensure the image covers the container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* White text for contrast */
+  padding: 2rem;
+  text-align: center;
+  height: 100%; /* Ensure it takes full height */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Text container in the left section */
+.left-section .hero-text {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.left-section .hero-text h1 {
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin: 0;
+}
+
+.left-section .hero-text p {
+  font-size: 1rem; /* Adjust font size as needed */
+  margin: 1rem 0 2rem;
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: white; /* Ensure the form stands out */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-button {
+  color: #ffffff; /* Text color */
+  background-color: #007562; /* Background color */
+  border-color: #007562; /* Border color */
+  text-transform: none; /* Prevent text transformation */
+  font-size: 0.875rem; /* Smaller font size */
+  width: 100%; /* Full width */
+  border-radius: 8px; /* Rounded button corners */
+}
+
+/* Right Section Styling */
+.right-section {
+  flex: 2; /* Takes up 40% of the container width */
+  background-color: #222; /* Dark background */
+  color: white; /* White text for contrast */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  height: 100%; /* Ensure it takes full height */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Form inside the right section */
+.right-section .form-container {
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.right-section .form-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.right-section .form-container p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.email-input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.join-button {
+  color: #ffffff; /* Text color */
+  background-color: #007562; /* Background color */
+  border-color: #007562; /* Border color */
+  width: 100%;
+  border-radius: 8px; /* Rounded button corners */
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+/* Centered Statement Styling */
+.houzz-statement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.5rem; /* Adjust the font size as per your design */
+  color: #333; /* Text color */
+  background-color: #f8f8f8; /* Light background color */
+}
+
+.houzz-statement h2 {
+  margin: 0;
+  font-weight: normal;
+}
+/* Cards Section Styling */
+.cards-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  background-color: #f8f8f8; /* Light background to match the houzz-statement section */
+}
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.card-content {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+

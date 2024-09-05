@@ -1,0 +1,55 @@
+.latest-stories-container {
+    width: 100%;
+    overflow: hidden; /* Hide vertical overflow */
+    padding: 40px 20px; /* Increased padding for better visual spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-top: 2px solid #ddd; /* Subtle border for separation */
+  }
+  
+  .latest-stories-container h2 {
+    text-align: center;
+    margin-bottom: 30px; /* More space below the heading */
+    font-size: 28px; /* Larger font size for emphasis */
+    color: #333; /* Dark color for readability */
+    font-weight: 600; /* Bold font for prominence */
+  }
+  
+  .latest-stories-container .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .latest-stories-container .slick-slide img {
+    width: 100%; /* Ensure images fit the container */
+    max-width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
+  }
+  
+  .latest-stories-container .slick-dots {
+    bottom: -40px; /* Adjust dot position */
+  }
+  
+  .latest-stories-container .slick-prev,
+  .latest-stories-container .slick-next {
+    z-index: 1; /* Ensure arrows are on top */
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background for arrows */
+    border-radius: 50%; /* Circular arrows */
+    color: #fff; /* White arrow color */
+  }
+  
+  .latest-stories-container .slick-prev:hover,
+  .latest-stories-container .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background on hover */
+  }
+  
+  .latest-stories-container .slick-prev {
+    left: 10px; /* Position left arrow */
+  }
+  
+  .latest-stories-container .slick-next {
+    right: 10px; /* Position right arrow */
+  }
+  

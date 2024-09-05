@@ -1,0 +1,53 @@
+.footer {
+    background-color: #2d2d2d; /* Dark background for contrast */
+    color: #f1f1f1; /* Light text color for readability */
+    padding: 40px 20px; /* Increased padding for a more spacious feel */
+    border-top: 1px solid #444; /* Darker border for subtle separation */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows sections to wrap for smaller screens */
+    justify-content: space-between; /* Evenly spaced sections */
+    gap: 20px; /* Space between sections */
+    margin-bottom: 20px; /* Space below the sections */
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensures sections have a minimum width */
+    margin: 0 15px; /* Margin around each section */
+  }
+  
+  .footer-title {
+    font-size: 18px; /* Larger font size for section titles */
+    font-weight: 600; /* Slightly bolder text */
+    margin-bottom: 15px; /* More space below the title */
+    border-bottom: 2px solid #f1f1f1; /* Underline for emphasis */
+    padding-bottom: 10px; /* Padding below the title */
+  }
+  
+  .footer-link {
+    display: block;
+    margin-bottom: 8px; /* Space between links */
+    color: #f1f1f1; /* Light text color for readability */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .footer-link:hover {
+    color: #ff9800; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 20px 0; /* More padding for better spacing */
+    border-top: 1px solid #444; /* Darker border to match footer background */
+  }
+  
+  .footer-text {
+    font-size: 14px; /* Standard text size */
+    color: #b0b0b0; /* Slightly lighter text color for less emphasis */
+  }
+  

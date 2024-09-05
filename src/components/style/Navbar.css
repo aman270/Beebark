@@ -1,0 +1,23 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text for contrast */
+  }
+  
+  .navbar .logo {
+    flex-grow: 1;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 1rem; /* Space between buttons */
+  }
+  
+  .nav-buttons .MuiButton-root {
+    color: #000000; /* Black text color */
+  }
+  
+  .nav-buttons .MuiButton-root:hover {
+    background-color: #f5f5f5; /* Light grey background on hover */
+  }
+  
